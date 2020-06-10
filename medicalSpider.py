@@ -181,5 +181,5 @@ def step1():
                 time.sleep(random.randint(5, 10))
     f.close()
 
-step0() #得到temp.txt,为链接+药物名+公司+商品名
-step1() #得到temp2.txt,为药物名+商品名+成份+适应症
+step0() # generate temp.txt, which consist of "url + China Approved Drug Names (CADN) + Factories + Trade Name".
+step1() # generate temp2.txt，which consist of "CADN + Trade Name + Ingredient + Use".
