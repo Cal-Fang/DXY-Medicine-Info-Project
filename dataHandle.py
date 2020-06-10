@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#去重
+# Delete duplicated info
 def noRepeat(filename, newname):
 	f = open(filename, 'r')
 	s = set(f.readlines())
@@ -11,7 +11,7 @@ def noRepeat(filename, newname):
 noRepeat("temp.txt", "data0.txt")
 noRepeat("temp2.txt", "data1.txt")
 
-#整合
+# Intergrate
 f = open('data1.txt', 'r')
 s = f.readlines()
 f.close()
@@ -33,7 +33,7 @@ f = open('data2.txt', 'w') #name1 name2 ingredient use factories sites
 f.writelines(sorted(final))
 f.close()
 
-#再去重
+# Delete duplicated info again
 f = open('data2.txt', 'r')
 lis = f.readlines()
 f.close()
@@ -54,7 +54,7 @@ f = open('data3.txt', 'w')
 f.writelines(['\t'.join(rec) + '\n' for rec in newlis])
 f.close()
 
-#生成最终json文件
+# Generate the json file
 import json
 #卡维地洛片	妥尔	本品主要成份为卡维地洛。	轻-中度原发性高血压。	海南碧凯药业有限公司	http://drugs.dxy.cn/drug/115489.htm
 #{"name":"卡维地洛片", "tradeName":"妥尔", "ingredient":"本品主要成份为卡维地洛。", "use":"轻-中度原发性高血压。", "factories":["海南碧凯药业有限公司"], "url":["http://drugs.dxy.cn/drug/115489.htm"]}
