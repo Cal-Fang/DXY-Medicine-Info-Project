@@ -44,9 +44,8 @@ P.S. There are some webpages' format different from the normal format, which res
 
 
 ANALYZING DATA
-I havn't done it since I got another final to prepare for =D
-But I was considering obtaining the income and profit information of the drug companies listed here, maybe through some industry database or scraping from some other publication platform. And then we could check whether there are any correlation between the amount of medicine produced, the use of medicine produced, and the profitability or other management index. We could also check the difference between generic medicine and patent medicine.
+I was considering obtaining the income and profit information of the drug companies listed here, maybe through some industry database or scraping from some other publication platform. And then we could check whether there are any correlation between the amount of medicine produced, the use of medicine produced, and the profitability or other management index. We could also check the difference between generic medicine and patent medicine.
+
+I havn't finished this part since I got another final to prepare for =D Although I did have drawn some graph for the requirment 3 in challenge 3.  I don't think what I've already got is important, since this project was designed for some further analysis on the relationship between medicine info and other staff.
 
 Anyway, that's it. I might come back to this after my accounting final =D Let me know if you think this is interesting!
-
-P.S. I drawed some graph for the requirment 3 in challenge 3, but I don't think they are important, since this project was designed for some further analysis between medicine info and other staff.
