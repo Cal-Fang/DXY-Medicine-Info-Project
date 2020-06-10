@@ -12,7 +12,7 @@ Step 3: medicalSpider.py will scrape medicine info from the target website (http
             generate temp.txt, which consist of "url + China Approved Drug Names (CADN) + Factories + Trade Name".
             Information acquired through this function is insignificant. So there is no anti-spider program. 
         b. step1()
-            generate temp2.txt，which consist of "CADN + Trade Name + Ingredient + Use"。
+            generate temp2.txt，which consist of "CADN + Trade Name + Ingredient + Use".
             Since there are some specific information acquired through this function, although I used proxy IPs and random User-Agent and slowed down the speed. It still got blocked sometimes. When running into such block, it will report error like:
             
                                       Traceback (most recent call last):
