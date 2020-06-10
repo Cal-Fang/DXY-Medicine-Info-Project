@@ -1,5 +1,14 @@
-getIP.py从网上获取免费的代理IP地址
-testIP.py测试其中有效的IP地址
-medicalSpider.py从目标网站（http://drugs.dxy.cn）爬取药物数据
-dataHandle.py将爬取得到的数据清洗、处理成json格式
-最终结果为data.json。
+SCRAPING DATA
+Step 1
+getIP.py will acquire some proxy IPs for the scraping work. [100 IP per time]
+
+Step 2
+testIP.py will test the effectiveness of acquired proxy IPs.
+
+Step 3
+medicalSpider.py will scrape medicine info from the target website (http://drugs.dxy.cn).
+
+Step 4
+dataHandle.py will clean the data and transform it to json file.
+
+Result: The final scraping result is a json file.
